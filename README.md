@@ -1,0 +1,4 @@
+ATLAS Control
+=============
+
+ATLAS Control is a framework for building a complete monitoring, trending, reporting, and real-time tracking SCADA-type system primarily aimed at the Industrial Manufacturing sector, but can be tailor to log and report just about anything. It features a modular "driver" framework and multiple storage options (mySQL and mongoDB currently) to streamline plant efficiency and reduce the operator and manager's daily pile of paperwork! It also includes a real-time tracking and mapping system to track product spacial movement on the plant floor-- integrating with logistics to determine the final customer. All these features combine to enable everyone to work together with a unified base of operation, which is reflected not only in the company's bottom line; but also major benefits for QC/QA by allowing them to pinpoint the cause of quality issues and Maintenance personnel to have a central jumping point for troubleshooting complex issues.
