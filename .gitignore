@@ -1,0 +1,13 @@
+############
+#
+#
+tuxeip/
+*.o
+*.so
+*.dll
+*.test
+*.bak
+*.old
+*.wcd
+atlas_daq/atlas_daq
+atlas_daq/atlas_daq_test
