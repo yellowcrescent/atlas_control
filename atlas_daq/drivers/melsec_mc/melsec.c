@@ -1,23 +1,22 @@
-/*
-
-	Atlas Project - Data Acquisition Daemon (DAQ)
-	J. Hipps - http://jhipps.org/ (jhipps@nichiha.com)
-	Nichiha USA, Inc.
-
-	MELSEC Communication Protocol (MC Protocol) Driver Implementation
-	Copyright (c) 2012-2013 Jacob Hipps/Nichiha USA, Inc.
-
-	2012.09.25 - Started.
-
-	This driver implements "MC Protocol" communications as described
-	in Mitsubishi "MELSEC-Q/L MELSEC Communication Protocol Reference
-	Manual", in the following manuals (English & Japanese)...
-	[en] SH(NA)-080008-Q - http://www.meau.com/
-	[jp] SH-08003-V      - http://www.mitsubishielectric.co.jp/
-
-	* Protocol Type 3E (binary) QnA compatible framing
-
-*/
+/**
+ *	Atlas Project - Data Acquisition Daemon (DAQ)
+ *	J. Hipps - http://jhipps.org/ (jhipps@nichiha.com)
+ *	Nichiha USA, Inc.
+ *
+ *	MELSEC Communication Protocol (MC Protocol) Driver Implementation
+ *	Copyright (c) 2012-2013 Jacob Hipps/Nichiha USA, Inc.
+ *
+ *	2012.09.25 - Started.
+ *
+ *	This driver implements "MC Protocol" communications as described
+ *	in Mitsubishi "MELSEC-Q/L MELSEC Communication Protocol Reference
+ *	Manual", in the following manuals (English & Japanese)...
+ *	[en] SH(NA)-080008-Q - http://www.meau.com/
+ *	[jp] SH-08003-V      - http://www.mitsubishielectric.co.jp/
+ *
+ *	* Protocol Type 3E (binary) QnA compatible framing
+ *
+ **/
 
 #define ATLS_DRIVER_MAIN
 #define ATLS_DRIVER_MAIN_MELSEC

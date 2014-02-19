@@ -1,12 +1,35 @@
-/*
-	Atlas Project - Data Acquisition Daemon (DAQ)
-	J. Hipps - http://jhipps.org/ (jhipps@nichiha.com)
-	Nichiha USA, Inc.
-	Copyright (c) 2012-2013 Jacob Hipps/Nichiha USA, Inc.
-	Version 0.03
-
-	07 Aug 2012 - Started
-*/
+/**
+ *	Atlas Project - Data Acquisition Daemon (DAQ)
+ *	
+ *	Top-level Process Control
+ *	Copyright (c) 2012-2013 J. Hipps
+ *
+ *	http://atlas.neoretro.net/
+ *
+ *  
+ * ---
+ *	author:		Jacob Hipps <jacob@neoretro.net>
+ *	
+ *	title:		Top-level Process Control
+ *	desc: >
+ *		CLI entry point (main) for atlas_daq. Also includes various
+ *		debugging, logging, error & exception handling, and
+ *		I/O control routines for sockets and files.
+ *		
+ *	src:
+ *		lang:		C
+ *		std:		C99
+ *	srcdoc:
+ *		segment:	atlas_daq
+ *		path:		atlas_daq.c
+ *		base:		atlas.neoretro.net/srcdoc/
+ *		cdate:		07 Aug 2012
+ *		mdate:		04 Nov 2013
+ *		license:	MPLv2
+ *	options:
+ *		deps:		{ mysqlclient }
+ *  ...
+ */
 
 #define _MAIN_FILE
 
